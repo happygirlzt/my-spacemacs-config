@@ -54,9 +54,9 @@ values."
      javascript
      typescript
      (wakatime :variables
-               wakatime-api-key  "4e5a5a1f-77b0-49dd-9a62-897c68e27090"
+               wakatime-api-key  "YOUR_WAKATIME_API"
                ;; use the actual wakatime path
-               wakatime-cli-path "/Users/happygirlzt/anaconda3/bin/wakatime")
+               wakatime-cli-path "YOUR_WAKATIME_PATH")
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
@@ -342,7 +342,7 @@ you should place your code here."
  '(package-selected-packages
    (quote
     (xterm-color typescript-mode shell-pop org-category-capture org-present alert log4e gntp org-download multi-term markdown-mode livid-mode skewer-mode simple-httpd json-snatcher json-reformat multiple-cursors js2-mode haml-mode git-gutter-fringe+ git-gutter-fringe fringe-helper git-gutter+ git-commit with-editor git-gutter gh-md flyspell-correct pos-tip flycheck eshell-z eshell-prompt-extras esh-help diff-hl web-completion-data dash-functional tern company yasnippet auto-dictionary anaconda-mode pythonic ac-ispell auto-complete ws-butler winum volatile-highlights vi-tilde-fringe uuidgen toc-org spaceline powerline restart-emacs request rainbow-delimiters popwin persp-mode paradox spinner org-bullets open-junk-file neotree move-text lorem-ipsum linum-relative link-hint indent-guide hungry-delete hl-todo highlight-parentheses highlight-numbers parent-mode highlight-indentation helm-make helm helm-core google-translate golden-ratio flx-ido fill-column-indicator fancy-battery eyebrowse expand-region evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state smartparens evil-indent-plus evil-iedit-state iedit evil-exchange evil-escape evil-ediff evil-args evil-anzu anzu eval-sexp-fu highlight dumb-jump define-word column-enforce-mode clean-aindent-mode auto-highlight-symbol aggressive-indent adaptive-wrap ace-link yapfify yaml-mode which-key wgrep web-mode web-beautify use-package unfill tide tagedit smex slim-mode scss-mode sass-mode rainbow-mode rainbow-identifiers pyvenv pytest pyenv-mode py-isort pug-mode pip-requirements pcre2el org-projectile org-pomodoro org-mime mwim mmm-mode markdown-toc macrostep lua-mode live-py-mode less-css-mode json-mode js2-refactor js-doc ivy-hydra hy-mode htmlize gnuplot gitignore-mode gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link ggtags fuzzy flyspell-correct-ivy flycheck-pos-tip flx exec-path-from-shell evil-visualstar evil-magit emmet-mode elisp-slime-nav diminish cython-mode counsel-projectile company-web company-tern company-statistics company-c-headers company-auctex company-anaconda color-identifiers-mode coffee-mode cmake-mode bind-map auto-yasnippet auto-compile wakatime-mode ace-window)))
- '(wakatime-python-bin "/Users/happygirlzt/anaconda3/bin/python"))
+ '(wakatime-python-bin "YOUR_PYTHON_PATH"))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
